@@ -1,12 +1,12 @@
 # stock-analysis
 
-##Purpose
+## Purpose
 
 The purpose of this project is to analyze all relavent stocks to our customer for the entire year, and see what their return and total volume look like. Based on this data, we can recommend to the end customer what stocks they should look in to, versus what stocks they should avoid.
 
 The customers originally wanted to invest in DAQO, but upon analysis, it looks like they should try to avoid that stock. The returns are not great for this stock for two years straight. They will want something that can guarantee them a return, even if it isn't a very high return.
 
-##Results
+## Results
 
 <img width="400" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/95941301/147421304-3f965e02-234e-427c-9acb-fea1d8c0e916.png">
 
@@ -65,7 +65,7 @@ Now, let's take a look at the run-time for each year.
 
 Each run-time is the exact same, and it happens in the blink of an eye. This performs better than the other code by milliseconds. It might not seem like much, but sometimes those few milliseconds can go very far depending on the use case, especially if you have a very large data set!
 
-##Summary
+## Summary
 
 The advantages to refactoring code are ever present, and can make certain tasks run much faster. This can be very useful if you are on a time crunch and don't want your data analysis to take longer than needed. The only disadvantage I can think of is when a refactored code doesn't make an apparent difference, and you may have spent uneeded time optimizing the code.
 
